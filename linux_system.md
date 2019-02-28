@@ -38,3 +38,18 @@ configure manually the network once the network is configured.**
 sources:
 * https://wiki.archlinux.org/index.php/VPN_over_SSH
 * https://help.ubuntu.com/community/SSH_VPN
+
+
+### `numfmt`
+
+Convert numbers to a human readable form:
+```
+$ numfmt --to=si --suffix=flops 12345678901004
+13flops
+
+$ numfmt --to=iec-i --suffix=B 12345678901004
+12TiB
+```
+
+Sources:
+* https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html#numfmt-invocation
