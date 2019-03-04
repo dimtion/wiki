@@ -54,6 +54,29 @@ $ numfmt --to=iec-i --suffix=B 12345678901004
 Sources:
 * https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html#numfmt-invocation
 
+## `sshfs`
+
+SSHFS is a FUSE program that allow a user to mount a filesystem over ssh.
+
+```bash
+sshfs -o allow_other,defer_permissions root@xxx.xxx.xxx.xxx:/ /mnt/dest
+```
+
+```bash
+sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa root@xxx.xxx.xxx.xxx:/ /mnt/dest
+```
+
+It can be added the fstab:
+```
+# /etc/fstab
+sshfs#root@xxx.xxx.xxx.xxx:/ /mnt/droplet
+```
+
+Sources:
+* DO tutorial: https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh
+* OSX installation: http://osxfuse.github.io/
+
+
 ## System scheduler
 
 Sources:
