@@ -11,6 +11,13 @@ If the number is smaller that 100-200 we are lacking entropy.
 
 ## SSH
 
+### `ssh-keygen`
+
+Remove a host key:
+```bash
+ssh-keygen -R <hostname>
+```
+
 ### SOCKS proxy
 Use a dynamic SOCKS proxy with `-D`:
 ```bash
