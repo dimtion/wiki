@@ -84,6 +84,28 @@ Sources:
 * OSX installation: http://osxfuse.github.io/
 
 
+## `flock`: Manage locks from shell scripts
+
+Tool to create an use locks from the a shell script, if the lock cannot be
+acquired immediatly flock waits.
+
+```bash
+(
+flock -s 200
+
+# ... commands executed under lock ..
+
+) 200>/var/lock/mylockfile
+```
+
+Lock for 15 seconds, in write mode a single command:
+```bash
+flock -x -w 15 /var/lock/mylock -c curl resel.fr
+```
+
+Source:
+* https://linux.die.net/man/1/flock
+
 ## System scheduler
 
 Sources:
@@ -210,10 +232,10 @@ Some tools provided by bcc:
 Print every new process launched by catching calls to `exec()` and `fork()`, useful for short lived processes.
 
 ```
-# execsnoop-bpfcc 
+# execsnoop-bpfcc
 PCOMM            PID    PPID   RET ARGS
 sshd             2916   1159     0 /usr/sbin/sshd -D -R
-sh               2918   2916     0  
+sh               2918   2916     0
 env              2919   2918     0 /usr/bin/env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin run-parts --lsbsysinit /etc/update-motd.d
 run-parts        2919   2918     0 /bin/run-parts --lsbsysinit /etc/update-motd.d
 00-header        2920   2919     0 /etc/update-motd.d/00-header
