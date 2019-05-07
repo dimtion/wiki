@@ -213,6 +213,20 @@ clock-delta                        :                   72
 Sources:
 * https://stackoverflow.com/a/4430641
 * https://blog.tanelpoder.com/2013/02/21/peeking-into-linux-kernel-land-using-proc-filesystem-for-quickndirty-troubleshooting/
+
+## SCP
+
+Scp is a command line program AND a protocol on top of ssh. [Which is deprecated](https://www.openssh.com/txt/release-8.0):
+
+> The scp protocol is outdated, inflexible and not readily fixed. We
+> recommend the use of more modern protocols like sftp and rsync for
+> file transfer instead.
+
+However the commandline tool is still ubiquitus so some notes are not too much.
+
+- To limit the bandwidth: `-l <speed in kbits>`.
+
+
 ## eBPF
 
 eBPF is a virtual machine running in the Linux kernel, it allows system
