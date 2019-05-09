@@ -106,6 +106,23 @@ flock -x -w 15 /var/lock/mylock -c curl resel.fr
 Source:
 * https://linux.die.net/man/1/flock
 
+## Sudo & visudo
+
+I've notice some pieces of trivia about visudo
+
+Allow no password for any command:
+```
+username ALL=(ALL:ALL) NOPASSWD: ALL
+```
+
+No password for a specific command:
+```
+user ALL=(target_user) NOPASSWD: /full/path/to/command
+```
+
+Attention: *the command must exist*!
+Attention: the last matching rule will be the one taken into account!
+
 ## System scheduler
 
 Sources:
