@@ -1,6 +1,19 @@
 notes on vim
 ============
 
+## Keybindings
+
+### Select html tags
+
+* `at` to select outer blocks
+* `it` to select inter blocks
+
+## Commands
+
+* `:set paste` to go into paste mode
+* `:set nopaste` disable paste mode
+* `:b#` go back to previous buffer
+
 ## Plugins
 
 ### Gitgutter
@@ -15,15 +28,3 @@ Some functions added:
 Undo Hunk: `GitGutterUndoHunk`
 
 
-## Keybindings
-
-### Select html tags
-
-* `at` to select outer blocks
-* `it` to select inter blocks
-
-
-## Commands
-
-* `:set paste` to go into paste mode
-* `:set nopaste` disable paste mode
