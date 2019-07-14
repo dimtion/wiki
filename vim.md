@@ -5,8 +5,17 @@ notes on vim
 
 ### Select html tags
 
+[normal]
+
 * `at` to select outer blocks
 * `it` to select inter blocks
+
+### Navigate in change list
+
+[normal]
+
+* `g;` jump back to the position of the last change
+* `g,` jump forware to the position of the next change
 
 ## Commands
 
