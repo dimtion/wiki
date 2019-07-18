@@ -84,6 +84,21 @@ Sources:
 * OSX installation: http://osxfuse.github.io/
 
 
+## awk
+
+There is a lot to say about awk, it is a wonderful tool.
+
+Print column 10 of a file (separated by ` `):
+```bash
+awk '{print $10}' filename
+```
+
+Print line 10 of a file:
+```bash
+awk 'NR==10' filename
+```
+
+
 ## `flock`: Manage locks from shell scripts
 
 Tool to create an use locks from the a shell script, if the lock cannot be
