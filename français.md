@@ -1,6 +1,4 @@
-Notes sur la langue française
-=============================
-
+# Langue française
 
 ## Accord du participe passé
 
@@ -24,6 +22,7 @@ simplement comment accorder un participe passé :
 > Mes cousines se sont prépar**é** deux énormes sandwiches.
 
 Sources :
+
 * https://www.charivarialecole.fr/archives/6420
 * http://www.langue-fr.net/Accord-du-participe-passe-en-cinq-minutes
 * https://surleboutdelalangue.collegemv.qc.ca/?p=598

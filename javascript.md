@@ -1,5 +1,4 @@
-Javascript
-==========
+# Javascript
 
 
 ## Design mode
@@ -13,5 +12,6 @@ document.designMode = "on";
 document.designMode = "off";
 ```
 
-Sources:
+## Sources
+
 * https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode

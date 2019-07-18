@@ -1,4 +1,4 @@
-# Quotes I like
+# Quotes
 
 ## Software development
 

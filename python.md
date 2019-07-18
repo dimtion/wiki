@@ -1,5 +1,4 @@
-Notes on Python
-===============
+# Python
 
 # Tips
 
@@ -15,4 +14,5 @@ python -m http.server --bind 127.0.0.1 --directory /tmp/
 ```
 
 sources:
+
 * https://docs.python.org/3/library/http.server.html

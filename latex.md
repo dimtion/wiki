@@ -1,12 +1,10 @@
-LaTeX
-=====
-
+# LaTeX
 
 
 ## Include image
 
 
-```
+```Latex
 \begin{figure}[htp]
 \centering
 \includegraphics[width=6cm]{loic-logo}
@@ -16,4 +14,5 @@ LaTeX
 ```
 
 sources:
+
 * https://www.overleaf.com/learn/how-to/Including_images_on_Overleaf

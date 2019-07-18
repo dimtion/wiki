@@ -1,5 +1,4 @@
-notes on vim
-============
+# Vim
 
 ## Keybindings
 

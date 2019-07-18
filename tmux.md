@@ -1,6 +1,4 @@
-tmux notes
-==========
-
+# Tmux
 
 Revert to the previous layout:
 ```
@@ -8,4 +6,5 @@ Revert to the previous layout:
 ```
 
 Sources:
+
 * https://stackoverflow.com/a/34944658

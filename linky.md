@@ -1,6 +1,4 @@
-Teleinfo sur le Linky
-=====================
-
+# Linky Téléinfo
 
 ## Coté Hard
 
@@ -25,4 +23,5 @@ Pour l'affichage, j'ai utilisé Grafana
 
 
 Spec Enedis:
+
 - https://www.enedis.fr/sites/default/files/Enedis-NOI-CPT_54E.pdf

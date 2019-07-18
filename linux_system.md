@@ -1,4 +1,4 @@
-# Linux system notes
+# Linux System
 
 
 Check available entropy:
@@ -43,6 +43,7 @@ This will create a tun interface to do a VPN over SSH. However **you need to
 configure manually the network once the network is configured.**
 
 sources:
+
 * https://wiki.archlinux.org/index.php/VPN_over_SSH
 * https://help.ubuntu.com/community/SSH_VPN
 
@@ -59,6 +60,7 @@ $ numfmt --to=iec-i --suffix=B 12345678901004
 ```
 
 Sources:
+
 * https://www.gnu.org/software/coreutils/manual/html_node/numfmt-invocation.html#numfmt-invocation
 
 ## `sshfs`
@@ -80,6 +82,7 @@ sshfs#root@xxx.xxx.xxx.xxx:/ /mnt/droplet
 ```
 
 Sources:
+
 * DO tutorial: https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh
 * OSX installation: http://osxfuse.github.io/
 
@@ -119,6 +122,7 @@ flock -x -w 15 /var/lock/mylock -c curl resel.fr
 ```
 
 Source:
+
 * https://linux.die.net/man/1/flock
 
 ## Sudo & visudo
@@ -141,6 +145,7 @@ Attention: the last matching rule will be the one taken into account!
 ## System scheduler
 
 Sources:
+
 * https://web.archive.org/web/20131010205236/http://www.ibm.com/developerworks/linux/library/l-scheduler/
 * https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_MRG/1.3/html-single/Realtime_Reference_Guide/index.html
 
@@ -243,6 +248,7 @@ clock-delta                        :                   72
 ```
 
 Sources:
+
 * https://stackoverflow.com/a/4430641
 * https://blog.tanelpoder.com/2013/02/21/peeking-into-linux-kernel-land-using-proc-filesystem-for-quickndirty-troubleshooting/
 
@@ -291,7 +297,7 @@ uname            2923   2920     0 /bin/uname -m
 ```
 
 ### Other tools
-List of tools in bpfcc : https://github.com/iovisor/bcc/blob/master/docs/tutorial.md
+List of tools in bpfcc: https://github.com/iovisor/bcc/blob/master/docs/tutorial.md
 
 * `opensnoop`: print every new `open()` syscalls
 * `ext4slower`: print slow operations on ext4 fs
@@ -306,6 +312,7 @@ List of tools in bpfcc : https://github.com/iovisor/bcc/blob/master/docs/tutoria
 
 
 # Sources and documentation
+
 * http://www.brendangregg.com/ebpf.html
 * Bcc tutorial: https://github.com/iovisor/bcc/blob/master/docs/tutorial.md
 * An introduction to the BPF Compiler collection: https://lwn.net/Articles/742082/

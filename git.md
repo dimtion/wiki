@@ -1,5 +1,4 @@
-Notes on Git
-============
+# Git
 
 ## Fixup and autosquash
 
@@ -42,5 +41,6 @@ fixup = !sh -c 'SHA=$(git rev-parse $1) \
 ```
 
 Sources:
+
 * https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html
 * https://twitter.com/tiste/status/1107587553383907328

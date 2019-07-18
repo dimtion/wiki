@@ -1,4 +1,4 @@
-Notes on MacOS
+MacOS
 ==============
 
 Because we sometime need to work on the dark side...
@@ -34,5 +34,6 @@ PrintLineage(($ARGV[0]) ? $ARGV[0] : 1, "");     # recurse to print lineage star
 ```
 
 Sources:
+
 * https://apple.stackexchange.com/a/11806
 * https://apple.stackexchange.com/a/137355

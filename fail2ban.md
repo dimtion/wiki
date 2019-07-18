@@ -1,6 +1,4 @@
-Fail2ban
-========
-
+# Fail2ban
 
 Fail to ban will not work with the default configuration on ubuntu 18.04, you
 need to specify systemd as the log provider
