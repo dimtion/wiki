@@ -21,6 +21,7 @@
 * `:set paste` to go into paste mode
 * `:set nopaste` disable paste mode
 * `:b#` go back to previous buffer
+* `:sort` to sort lines (can be selected in visual mode)
 
 ## Plugins
 
