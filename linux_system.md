@@ -101,6 +101,15 @@ Print line 10 of a file:
 awk 'NR==10' filename
 ```
 
+## `bash`
+
+### Builtins
+
+Move back to previous directory:
+```bash
+cd -
+```
+
 
 ## `flock`: Manage locks from shell scripts
 
