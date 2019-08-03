@@ -1,5 +1,21 @@
 # Python
 
+# `pip`
+
+## Pip cache
+
+Cache location:
+
+* Unix: `~/.cache/pip` and it respects the `XDG_CACHE_HOME` directory.
+* macOS: `~/Library/Caches/pip`.
+* Windows `<CSIDL_LOCAL_APPDATA>\pip\Cache`.
+
+To disable the cache, use the flag `--no-cache-dir`
+
+sources:
+
+* https://pip.pypa.io/en/latest/reference/pip_install/#caching
+
 # Tips
 
 There is a built-in web server embed in Python3 that can server a folder:
