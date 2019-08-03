@@ -6,8 +6,8 @@
 
 #### Hamming distance
 
-The hamming distance of two vectors $a, b \in \mathrm{F}$ is the number of
-elements of $a$ that differ from $b$.
+The hamming distance of two vectors $`a, b \in \mathrm{F}`$ is the number of
+elements of $`a`$ that differ from $`b`$.
 
 In Python it can be calculated:
 ```python
