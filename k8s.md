@@ -116,6 +116,13 @@ DNS-based service discovery.
 A headless service is a service without a VIP and no load-balancing
 
 
+## Helm
+
+Helm is a "package manager" for k8s that helps install new services on it such as Apache Spark, gitlab worker, prometheus...
+
+* https://github.com/helm/helm
+* https://helm.sh/
+
 ## Istio
 
 Istio is a service mesh: manage services and connections between them.
