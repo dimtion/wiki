@@ -44,3 +44,10 @@ Sources:
 
 * https://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html
 * https://twitter.com/tiste/status/1107587553383907328
+
+
+## git diff
+
+Nice arg in git diff : `-W` or `--function-context` will show the surrounding
+function of the patch.
+
