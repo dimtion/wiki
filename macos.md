@@ -37,3 +37,12 @@ Sources:
 
 * https://apple.stackexchange.com/a/11806
 * https://apple.stackexchange.com/a/137355
+
+
+## CoreAudio
+
+If there are sound problems, (low volume...) killing Core audio might be a solution:
+```bash
+sudo killall coreaudiod
+sudo launchctl unload /System/Library/LaunchDaemons/com.apple.audio.coreaudiod.plist && sudo launchctl load /System/Library/LaunchDaemons/com.apple.audio.coreaudiod.plist
+```
