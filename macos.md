@@ -46,3 +46,22 @@ If there are sound problems, (low volume...) killing Core audio might be a solut
 sudo killall coreaudiod
 sudo launchctl unload /System/Library/LaunchDaemons/com.apple.audio.coreaudiod.plist && sudo launchctl load /System/Library/LaunchDaemons/com.apple.audio.coreaudiod.plist
 ```
+
+## Strace equivalent
+
+The equivalent of strace under MacOS is `dtruss`. To be run by superuser.
+
+Example:
+```bash
+sudo dtruss python
+```
+
+To filter specific syscalls the following can be used:
+```bash
+sudo dtruss -f -t open python
+```
+
+Sources:
+
+* https://stackoverflow.com/a/1926131/1582589
+*
