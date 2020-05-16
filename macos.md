@@ -61,6 +61,12 @@ To filter specific syscalls the following can be used:
 sudo dtruss -f -t open python
 ```
 
+## open port
+
+```bash
+lsof -nP -iTCP:$PORT | grep LISTEN
+```
+
 Sources:
 
 * https://stackoverflow.com/a/1926131/1582589
